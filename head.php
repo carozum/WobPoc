@@ -35,4 +35,4 @@
 
 </head>
 
-<body>
+<body class="pb-0">
