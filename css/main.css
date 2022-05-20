@@ -1,8 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-boxq;
+    box-sizing: border-box;
 }
 .container-fluid{
     width: 100vw;
 }
+/* .container{
+    color: #daa74961;
+} */

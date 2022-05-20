@@ -15,6 +15,7 @@
     <link href="css/footers.css" rel="stylesheet">
     <link href="css/features.css" rel="stylesheet">
     <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/front-header.css">
     <link rel="stylesheet" href="css/main.css">
 
     <!-- Favicons -->
@@ -28,10 +29,9 @@
     <?php include('variables.php'); ?>
 
     <!-- SEO -->
-    <meta name="description" content="">
-    <meta name="author" content="Webcome on board">
+    <meta name="author" content="carozum">
+    <meta name="description" content="agence web au pays basque qui vous rend visible sur internet: design et création de sites, référencement, publicité en ligne, réseaux sociaux, gestion de votre projet digital.">
     <title>Agence Web webcome on board</title>
-    <title>WOB Home Page</title>
 
 </head>
 
