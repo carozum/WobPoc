@@ -1,7 +1,32 @@
-<div id="Siteweb" class="container tabcontent" style="overflow-y: scroll; height: 50vh;">
+<div id="Siteweb" class="container tabcontent" style="overflow-y: scroll; ">
+    <section class="row py-4">
+        <h2>Plus précisément quel type de site internet imaginez vous? </h2>
+        <p class="text-muted text-small">Un site vitrine est composé d'une seule page vous présentant alors qu'un site dynamique en contient plusieurs ainsi q'un un blog et il peut être mis à jour via un dashboard. </p>
 
+        <form action="">
+            <div class="form-group">
+
+                <div class="form-check">
+                    <input type="checkbox" name="static" class="checkbox form-check-input" id="static" class="checkbox" value="static">
+                    <label for="static" class="form-check-label">Site vitrine</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="wordpress" id="wordpress" value="wordpress" class="checkbox form-check-input">
+                    <label for="wordpress" class="form-check-label">Site dynamique avec un blog </label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="specific" id="specific" value="specific" class="checkbox form-check-input">
+                    <label for="specific" class="form-check-label">Site e-commerce</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="audit" id="audit" value="audit" class="checkbox form-check-input">
+                    <label for="audit" class="form-check-label">Refonte de site</label>
+                </div>
+            </div>
+        </form>
+    </section>
     <!-- produit 1 -->
-    <div class="row mt-2 mb-1 ms-2 me-2 justify-content-around">
+    <!-- <div class="row mt-2 mb-1 ms-2 me-2 justify-content-around">
         <div class="card col-9 border-0" style="height: 13vh; max-width: 540px;">
             <div class="row g-0 ">
                 <div class="col-2 d-flex justify-content-center align-items-center">
@@ -29,10 +54,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- produit 2 -->
-    <div class="row mt-2 mb-1 ms-2 me-2 justify-content-around">
+    <!-- <div class="row mt-2 mb-1 ms-2 me-2 justify-content-around">
         <div class="card col-9 border-0" style="height: 13vh; max-width: 540px;">
             <div class="row g-0 ">
                 <div class="col-2 d-flex justify-content-center align-items-center">
@@ -60,10 +85,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- produit 3 -->
-    <div class="row mt-2 mb-1 ms-2 me-2 justify-content-around">
+    <!-- <div class="row mt-2 mb-1 ms-2 me-2 justify-content-around">
         <div class="card col-9 border-0" style="height: 13vh; max-width: 540px;">
             <div class="row g-0 ">
                 <div class="col-2 d-flex justify-content-center align-items-center">
@@ -91,9 +116,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- produit 4 -->
-    <div class="row mt-2 mb-1 ms-2 me-2 justify-content-around">
+    <!-- <div class="row mt-2 mb-1 ms-2 me-2 justify-content-around">
         <div class="card col-9 border-0" style="height: 13vh; max-width: 540px;">
             <div class="row g-0 ">
                 <div class="col-2 d-flex justify-content-center align-items-center">
@@ -121,5 +146,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>

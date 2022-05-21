@@ -2,7 +2,7 @@
 
 
     <?php include('navigation.php'); ?>
-    <header style="height: 94vh; background-image: url('img/front.jpeg'); background-position: center; background-size: cover;" class="text-center ">
+    <header style="height: 94vh; background-image: url('img/front.jpeg');     background-position: center; background-size: cover;" class="text-center ">
         <div class="overlay d-flex justify-content-center align-items-center" style="background-color:rgba(255, 255, 255, 0.4) ; width: 100%; height: 100%; ">
             <div class=" container">
                 <div class="row text-dark">
