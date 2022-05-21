@@ -3,8 +3,8 @@
     <!-- calculateur -->
     <section>
         <div class="container">
-            <p class="h2 display-6 text-center mb-4">Qu'est ce qui vous amène ici ?</p>
-            <h2 class="display-6 text-center mb-4">Etes vous déjà présent sur le Web ou sur les réseaux sociaux?</h2>
+            <!-- <h2 class="display-6 text-center mb-4">Qu'est ce qui vous amène ici ? <br>Etes vous déjà présent sur le Web ou sur les réseaux sociaux?</h2> -->
+            <?php include('simulateur.php'); ?>
         </div>
 
     </section>
@@ -79,10 +79,9 @@
     </section>
 
     <!-- blog -->
-    <section class="album pt-5 pb-0">
-        <h2 class="display-6 text-center mb-4">Derniers articles de blog</h2>
-        <div id="myCarousel" class="carousel mb-3" data-bs-ride="carousel" data-interval="false ">
-
+    <section class="album pt-5 pb-0 mb-0">
+        <h2 class="display-6 text-center pt-5 mb-0" style="background-color:#daa74931 ;">Derniers articles de blog</h2>
+        <div id="myCarousel" class="carousel slide mb-3 carousel-dark" data-bs-touch="true" data-bs-keyboard="true" data-bs-interval="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -92,7 +91,7 @@
 
                 <div class="carousel-item active">
                     <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <rect width="100%" height="100%" fill="#1D63A7" />
+                        <rect width="100%" height="100%" fill="#daa74931" />
                     </svg>
 
                     <div class="container">
@@ -113,7 +112,7 @@
                 </div>
                 <div class="carousel-item">
                     <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <rect width="100%" height="100%" fill="#1D63A7" />
+                        <rect width="100%" height="100%" fill="#daa74931" />
                     </svg>
 
                     <div class="container">
@@ -134,7 +133,7 @@
                 </div>
                 <div class="carousel-item">
                     <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <rect width="100%" height="100%" fill="#1D63A7" />
+                        <rect width="100%" height="100%" fill="#daa74931" />
                     </svg>
 
                     <div class="container">

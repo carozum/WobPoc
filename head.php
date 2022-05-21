@@ -10,6 +10,7 @@
     <link rel="canonical" href="#">
 
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/simulateur.css">
     <link rel="stylesheet" href="css/aboutus-style.css">
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/footers.css" rel="stylesheet">
@@ -32,6 +33,9 @@
     <meta name="author" content="carozum">
     <meta name="description" content="agence web au pays basque qui vous rend visible sur internet: design et création de sites, référencement, publicité en ligne, réseaux sociaux, gestion de votre projet digital.">
     <title>Agence Web webcome on board</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
 </head>
 
