@@ -26,18 +26,23 @@
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --font-family-title: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  .primary{
-      background-color: var(--primary);
-  }
-  .secondary{
-      background-color: var(--secondary);
-  }
-  .warning{
-      background-color: var(--warning);
-  }
-  .info{
-      background-color: var(--info);
-     
-  }
+
+.bg-primary, 
+.btn-primary{
+    background-color: var(--primary)!important;
+}
+.bg-secondary,
+.btn-secondary{
+    background-color: var(--secondary)!important;
+}
+.bg-warning,
+.btn-warning{
+    background-color: var(--warning)!important;
+}
+.bg-info,
+.btn-info{
+    background-color: var(--info)!important;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

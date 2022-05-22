@@ -1,4 +1,3 @@
-<?php include('front-page-header.php') ?>
 <main class="container-fluid px-0">
     <!-- calculateur -->
     <section>

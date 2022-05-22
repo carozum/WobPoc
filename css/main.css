@@ -3,9 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container-fluid{
-    width: 100vw;
+
+//   ::-webkit-scrollbar {
+//       width: 0px;
+//       background: transparent; /* make scrollbar transparent */
+// }
+body, a, .btn{
+    font-family: var(--font-family-sans-serif);
 }
-/* .container{
-    color: #daa74961;
-} */
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-family-title);
+}
+.btn{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+}

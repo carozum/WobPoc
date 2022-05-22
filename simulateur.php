@@ -1,50 +1,61 @@
-<div class="container-perso">
+<div class="container py-4" style="height: 100vh;">
+    <div class="row">
+        <!-- titre 1 -->
+        <h2 class="display-6 text-center mb-4 mt-1">De quoi avez vous besoin pour votre projet? </h2>
 
+        <!-- scrollable horizontal menu -->
+        <?php include('simu-scrollable-horizontal-menu.php'); ?>
 
-    <!-- titre 1 -->
-    <h2 class="display-6 text-center mb-4 mt-1">De quoi avez vous besoin pour votre projet? </h2>
+        <!-- product per service. Attente is the div that is shown before a choice is made.  -->
+        <div id="attente" class="mt-2 text-center">
+            <p class="text-small text-muted text-center">Vous pouvez faire défiler horizontalement le menu ci-dessus et parcourir les différentes options. Vous aurez la possibilité de tout visualiser et de revenir en arrière à tout moment. </p>
+        </div>
 
-    <!-- scrollable horizontal menu -->
-    <?php include('simu-scrollable-horizontal-menu.php'); ?>
+        <?php include("service-siteWeb.php"); ?>
+        <?php include("service-seo.php"); ?>
+        <?php include("service-design.php"); ?>
+        <?php include("service-projet.php"); ?>
+        <?php include("service-rien.php"); ?>
 
-    <!-- product per service. Attente is the div that is shown before a choice is made.  -->
-    <div id="attente" class="mt-2 text-center">
-        <p class="text-small text-muted text-center">Vous pouvez faire défiler horizontalement le menu ci-dessus et parcourir les différentes options. Vous aurez la possibilité de tout visualiser et de revenir en arrière à tout moment. </p>
     </div>
 
-    <?php include("service-siteWeb.php"); ?>
-    <?php include("service-seo.php"); ?>
-    <?php include("service-design.php"); ?>
-    <?php include("service-projet.php"); ?>
-    <?php include("service-rien.php"); ?>
+    <section class="row">
+        <div class="col-12">
+            <div class="row align-items-center">
+                <div class="col-8">
+                    <p class="fs-5">Prix total du panier</p>
+                </div>
+                <div class="col-4">
+                    <p id="prixTotal" class="fs-5"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 d-none">
+            <h2>Détail de votre panier</h2>
+            <p id="listing"></p>
+        </div>
+    </section>
 
+    <section class="row d-none">
+        <div class="col-6">
+            <form action="">
+                <label for="email" class="form-label">Entrez votre email pour recevoir votre estimation</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Votre email">
+                <a href="" id="recevoir" class="btn btn-danger my-2">Recevoir l'estimation</a>
+            </form>
+        </div>
+        <div class="col-3 text-center">
+            <p>Nous contacter</p>
+            <button id="contact" class="btn btn-secondary">Nous contacter</button>
+        </div>
+        <div class="col-3 text-center">
+            <p>Nouvelle estimation</p>
+            <button id="vider" class="btn btn-secondary">Vider le panier</button>
+        </div>
 
 </div>
 
-<section class="row bg-light">
-    <h2>Détail de votre panier</h2>
-    <p id="listing"></p>
 
-    <h2>Prix total du panier</h2>
-    <p id="prixTotal"></p>
-</section>
-
-<section class="row">
-    <div class="col-6">
-        <form action="">
-            <label for="email" class="form-label">Entrez votre email pour recevoir votre estimation</label>
-            <input type="email" name="email" id="email" class="form-control" placeholder="Votre email">
-            <a href="" id="recevoir" class="btn btn-danger my-2">Recevoir l'estimation</a>
-        </form>
-    </div>
-    <div class="col-3 text-center">
-        <p>Nous contacter</p>
-        <button id="contact" class="btn btn-secondary">Nous contacter</button>
-    </div>
-    <div class="col-3 text-center">
-        <p>Nouvelle estimation</p>
-        <button id="vider" class="btn btn-secondary">Vider le panier</button>
-    </div>
 </section>
 <script>
     // variables declaration
@@ -79,7 +90,7 @@
         let prix = 0;
         for (let presta in panier) {
             prix += panier[presta];
-            prixTotal.innerHTML = prix;
+            prixTotal.innerHTML = prix + ' euros';
         }
     }
 

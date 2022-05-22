@@ -1,18 +1,32 @@
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-}
+// .bd-placeholder-img {
+//     font-size: 1.125rem;
+//     text-anchor: middle;
+//     -webkit-user-select: none;
+//     -moz-user-select: none;
+//     user-select: none;
+// }
 
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-}
+// @media (min-width: 768px) {
+//     .bd-placeholder-img-lg {
+//         font-size: 3.5rem;
+//     }
+// }
 
-.material-icons.md-100 {
-    font-size: 70px;
+// .material-icons.md-100 {
+//     font-size: 70px;
+//     text-align: center;
+// }
+
+  /* Center align the text within the three columns in about us */
+  .about .col-lg-4 {
+    margin-bottom: 1.5rem;
     text-align: center;
-}
+  }
+  .about h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .about .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }

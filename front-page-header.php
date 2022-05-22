@@ -1,8 +1,7 @@
 <div>
 
-
     <?php include('navigation.php'); ?>
-    <header style="height: 94vh; background-image: url('img/front.jpeg');     background-position: center; background-size: cover;" class="text-center ">
+    <header style="height: 100vh; background-image: url('img/front.jpeg');     background-position: center; background-size: cover;" class="text-center ">
         <div class="overlay d-flex justify-content-center align-items-center" style="background-color:rgba(255, 255, 255, 0.4) ; width: 100%; height: 100%; ">
             <div class=" container">
                 <div class="row text-dark">
@@ -15,9 +14,9 @@
                             accompagner dans votre projet. Dès maintenant, vous pouvez gratuitement : </p>
                         <div class="row">
                             <p class="col-md-6 text-md-end">
-                                <a href="#" class="btn btn-lg rounded-5 shadow btn-outline-dark border-0 info my-2 w-75 py-3">Demander un conseil</a>
+                                <a href="#" class="btn btn-lg rounded-5 shadow btn-info border-0 my-2 w-75 py-3">Besoin d'un conseil?</a>
                             </p>
-                            <p class="col-md-6 text-md-start"><a href="#" class="btn btn-lg rounded-5 shadow btn-outline-dark border-0 secondary my-2 w-75 py-3">Estimer votre projet</a>
+                            <p class="col-md-6 text-md-start"><a href="#" class="btn btn-lg rounded-5 shadow btn-secondary text-dark border-0  my-2 w-75 py-3">Envie d'un devis?</a>
                             </p>
                         </div>
                     </div>
